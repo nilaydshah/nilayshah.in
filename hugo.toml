@@ -1,0 +1,4 @@
+baseURL = 'https://nilayshah.in/'
+locale = 'en-us'
+title = 'Nilay Shah'
+theme = 'PaperMod'
