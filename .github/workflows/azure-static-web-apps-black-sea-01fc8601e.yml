@@ -43,8 +43,8 @@ jobs:
         id: idtoken
         with:
           script: |
-            const core = require('@actions/core')
-            return await core.getIDToken()
+            const oidcCore = require('@actions/core')
+            return await oidcCore.getIDToken()
           result-encoding: string
       - name: Deploy
         if: github.event_name != 'pull_request'
