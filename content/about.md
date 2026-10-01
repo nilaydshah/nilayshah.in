@@ -5,15 +5,20 @@ showToc = false
 hideMeta = true
 +++
 
-I am **Nilay Shah**, an Azure Storage engineering leader at Microsoft.
+I am **Nilay Shah**, an Azure Storage engineering leader at Microsoft, leading the Control Plane organization behind foundational Azure storage services.
 
-I care about the practical side of engineering transformation: how teams build reliable cloud systems, introduce AI into real workflows, and evolve their operating models without losing judgment, accountability, or trust.
+Our platform powers the lifecycle of services such as Azure Storage accounts, managed disks, and Elastic SAN. I care about both sides of that mission: building massive-scale distributed systems and improving the system of engineering used to create and operate them.
+
+That includes transforming teams through AI-native systems, better developer and agent experiences, and engineering-efficiency improvements—without losing judgment, accountability, reliability, or trust.
 
 My work and writing focus on:
 
+- Azure platform and Control Plane engineering
+- Massive-scale distributed cloud services
 - AI-native engineering and agentic systems
+- Developer and agent experience
+- Engineering efficiency and platform modernization
 - Site reliability and incident response
-- Large-scale cloud services
 - Responsible automation and human-in-the-loop design
 - Engineering leadership across distributed teams
 - Moving ideas from proof of concept to production
