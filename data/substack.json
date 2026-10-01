@@ -1,0 +1,16 @@
+{
+  "feed": "https://theainativeengineer.substack.com/feed",
+  "generatedAt": "2026-10-01T03:35:29.206077+00:00",
+  "source": "RSS-to-JSON fallback",
+  "items": [
+    {
+      "title": "Operate Smarter with Azure SRE Agent: Transforming the On-Call DRI Experience",
+      "link": "https://theainativeengineer.substack.com/p/operate-smarter-with-azure-sre-agent-188",
+      "date": "2026-10-01T01:26:58+00:00",
+      "dateDisplay": "October 1, 2026",
+      "summary": "Lessons from Azure Storage on transforming incident investigation while keeping engineers firmly in control.",
+      "image": "https://substackcdn.com/image/fetch/%24s_!jg_0!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F578411f7-4523-4df4-a0ec-ebff1b9558d7_5712x3540.jpeg",
+      "author": "Nilay Shah"
+    }
+  ]
+}
