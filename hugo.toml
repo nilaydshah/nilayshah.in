@@ -8,8 +8,8 @@ copyright = "© 2026 Nilay Shah"
 [params]
   env = "production"
   author = "Nilay Shah"
-  description = "Nilay Shah is an Azure Storage engineering leader writing about AI-native engineering, reliable cloud systems, and engineering leadership."
-  keywords = ["Nilay Shah", "AI-native engineering", "Azure Storage", "agentic AI", "site reliability engineering", "engineering leadership"]
+  description = "Nilay Shah is an Azure Storage Control Plane engineering leader focused on distributed cloud platforms, AI-native engineering, developer experience, and engineering transformation."
+  keywords = ["Nilay Shah", "Azure Storage", "Azure Control Plane", "distributed systems", "AI-native engineering", "developer experience", "agent experience", "engineering leadership"]
   defaultTheme = "auto"
   disableThemeToggle = false
   disableSpecial1stPost = true

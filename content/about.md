@@ -1,28 +1,28 @@
 +++
 title = "About"
-description = "About Nilay Shah, Azure Storage engineering leader and author of The AI-Native Engineer."
+summary = "Nilay Shah is an engineering leader working on Azure Storage Control Plane, massive-scale distributed systems, AI-native engineering, and engineering efficiency."
 showToc = false
 hideMeta = true
 +++
 
-I am **Nilay Shah**, an Azure Storage engineering leader at Microsoft.
+I’m **Nilay Shah**, an engineering leader working on Azure Storage Control Plane—the foundational platform behind the lifecycle of Azure Storage accounts, managed disks, and Elastic SAN. My focus includes massive-scale distributed systems, AI-native engineering, developer and agent experience, and improving engineering efficiency.
 
-I care about the practical side of engineering transformation: how teams build reliable cloud systems, introduce AI into real workflows, and evolve their operating models without losing judgment, accountability, or trust.
+My work focuses on:
 
-My work and writing focus on:
-
+- Massive-scale distributed cloud platforms
 - AI-native engineering and agentic systems
-- Site reliability and incident response
-- Large-scale cloud services
-- Responsible automation and human-in-the-loop design
-- Engineering leadership across distributed teams
-- Moving ideas from proof of concept to production
+- Developer and agent experience
+- Engineering efficiency and platform modernization
+- Reliability, responsible automation, and human judgment
+- Leadership across distributed engineering teams
+
+I am especially interested in turning promising ideas into trusted production systems—and improving how teams build, operate, and learn along the way.
 
 ## The AI-Native Engineer
 
 I publish **[The AI-Native Engineer](https://theainativeengineer.substack.com/)**, where I share field notes, case studies, and lessons on how AI is changing the way engineers build, operate, and lead.
 
-The goal is simple: move beyond demos and hype, and focus on what works, what does not, and what engineering teams learn along the way.
+The goal is to move beyond demos and hype and focus on what works, what does not, and what teams learn while moving AI from proof of concept to production.
 
 [Read the publication →](https://theainativeengineer.substack.com/)
 
