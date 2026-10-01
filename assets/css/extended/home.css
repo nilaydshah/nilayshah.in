@@ -538,6 +538,29 @@
   color: #172033;
 }
 
+.about-hero {
+  margin: 8px 0 44px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 28px;
+  background: var(--entry);
+  box-shadow: 0 24px 60px rgba(14, 35, 65, 0.12);
+}
+
+.about-hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.about-hero figcaption {
+  padding: 16px 22px 18px;
+  color: var(--secondary);
+  font-size: 0.82rem;
+  font-style: normal;
+  text-align: left;
+}
+
 @media (max-width: 960px) {
   .site-hero {
     grid-template-columns: 1fr;
@@ -661,6 +684,11 @@
 
   .newsletter-cta .button {
     margin-top: 24px;
+  }
+
+  .about-hero {
+    margin-bottom: 34px;
+    border-radius: 22px;
   }
 }
 
