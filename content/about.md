@@ -5,8 +5,6 @@ showToc = false
 hideMeta = true
 +++
 
-{{< about-hero >}}
-
 I am **Nilay Shah**, an Azure Storage engineering leader at Microsoft. I lead the Control Plane organization behind foundational Azure storage services.
 
 The platform powers the lifecycle of services such as Azure Storage accounts, managed disks, and Elastic SAN.
