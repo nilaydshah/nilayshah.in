@@ -113,6 +113,45 @@
     </article>
   </section>
 
+  {{- $featuredURL := "https://theainativeengineer.substack.com/p/operate-smarter-with-azure-sre-agent-188" -}}
+  {{- with hugo.Data.substack.items -}}
+  {{- $latest := where . "link" "ne" $featuredURL -}}
+  {{- if $latest }}
+  <section class="home-section latest-section" aria-labelledby="latest-title">
+    <div class="section-heading">
+      <div>
+        <p class="section-kicker">LATEST WRITING</p>
+        <h2 id="latest-title">Latest from The AI-Native Engineer</h2>
+      </div>
+      <a class="text-link section-heading-link" href="https://theainativeengineer.substack.com/archive" target="_blank" rel="noopener">
+        View the archive <span aria-hidden="true">→</span>
+      </a>
+    </div>
+
+    <div class="latest-grid">
+      {{- range first 3 $latest }}
+      {{- $post := . }}
+      <article class="latest-card">
+        {{- with .image }}
+        <a class="latest-card-image" href="{{ $post.link }}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+          <img src="{{ . }}" alt="" loading="lazy">
+        </a>
+        {{- end }}
+        <div class="latest-card-body">
+          {{- with .dateDisplay }}<time datetime="{{ $post.date }}">{{ . }}</time>{{ end }}
+          <h3><a href="{{ .link }}" target="_blank" rel="noopener">{{ .title }}</a></h3>
+          {{- with .summary }}<p>{{ . }}</p>{{ end }}
+          <a class="text-link" href="{{ .link }}" target="_blank" rel="noopener">
+            Read the article <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </article>
+      {{- end }}
+    </div>
+  </section>
+  {{- end }}
+  {{- end }}
+
   <section class="home-section focus-section" aria-labelledby="focus-title">
     <div class="section-heading">
       <div>
