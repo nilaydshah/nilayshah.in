@@ -1,13 +1,11 @@
 +++
 title = "About"
-description = "Nilay Shah leads Azure Storage Control Plane engineering and writes about distributed platforms, AI-native engineering, developer experience, and engineering leadership."
+summary = "Nilay Shah is an engineering leader working on Azure Storage Control Plane, massive-scale distributed systems, AI-native engineering, and engineering efficiency."
 showToc = false
 hideMeta = true
 +++
 
-I am **Nilay Shah**, an Azure Storage engineering leader at Microsoft. I lead the Control Plane organization behind foundational Azure storage services.
-
-The platform powers the lifecycle of services such as Azure Storage accounts, managed disks, and Elastic SAN.
+I’m **Nilay Shah**, an engineering leader working on Azure Storage Control Plane—the foundational platform behind the lifecycle of Azure Storage accounts, managed disks, and Elastic SAN. My focus includes massive-scale distributed systems, AI-native engineering, developer and agent experience, and improving engineering efficiency.
 
 My work focuses on:
 
