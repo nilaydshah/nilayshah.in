@@ -1,4 +1,48 @@
-baseURL = 'https://nilayshah.in/'
-locale = 'en-us'
-title = 'Nilay Shah'
-theme = 'PaperMod'
+baseURL = "https://nilayshah.in/"
+languageCode = "en-us"
+title = "Nilay Shah"
+theme = "PaperMod"
+enableRobotsTXT = true
+copyright = "© 2026 Nilay Shah"
+
+[params]
+  env = "production"
+  author = "Nilay Shah"
+  description = "Nilay Shah is an Azure Storage engineering leader writing about AI-native engineering, reliable cloud systems, and engineering leadership."
+  keywords = ["Nilay Shah", "AI-native engineering", "Azure Storage", "agentic AI", "site reliability engineering", "engineering leadership"]
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  disableSpecial1stPost = true
+  images = ["/images/nilay-shah-og.png"]
+
+  [params.label]
+    text = "Nilay Shah"
+
+  [params.footer]
+    text = "Views are my own."
+
+  [params.assets]
+    favicon = "favicon.ico"
+    favicon16x16 = "favicon-16x16.png"
+    favicon32x32 = "favicon-32x32.png"
+    apple_touch_icon = "apple-touch-icon.png"
+    theme_color = "#0b1f3a"
+    msapplication_TileColor = "#0b1f3a"
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "newsletter"
+  name = "Newsletter"
+  url = "https://theainativeengineer.substack.com/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "github"
+  name = "GitHub"
+  url = "https://github.com/nilaydshah"
+  weight = 30
