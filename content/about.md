@@ -29,7 +29,7 @@ The goal is simple: move beyond demos and hype, and focus on what works, what do
 ## Elsewhere
 
 - [LinkedIn](https://www.linkedin.com/in/nilaydshah/)
-- [X](https://x.com/nilaydshah)
+- [X / Twitter](https://x.com/nilaydshah)
 - [Instagram](https://www.instagram.com/nilayshah.in/)
 - [GitHub](https://github.com/nilaydshah)
 - [The AI-Native Engineer](https://theainativeengineer.substack.com/)
