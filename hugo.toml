@@ -3,7 +3,12 @@ languageCode = "en-us"
 title = "Nilay Shah"
 theme = "PaperMod"
 enableRobotsTXT = true
+disableKinds = ["taxonomy", "term"]
 copyright = "© 2026 Nilay Shah"
+
+[services]
+  [services.googleAnalytics]
+    id = "G-TMKX5DF9SP"
 
 [params]
   env = "production"
@@ -19,7 +24,17 @@ copyright = "© 2026 Nilay Shah"
     text = "Nilay Shah"
 
   [params.footer]
-    text = "Views are my own."
+    text = "[Privacy](/privacy/) · Views are my own."
+
+  [params.schema]
+    publisherType = "Person"
+    sameAs = [
+      "https://www.linkedin.com/in/nilaydshah/",
+      "https://x.com/nilaydshah",
+      "https://www.instagram.com/nilayshah.in/",
+      "https://github.com/nilaydshah",
+      "https://theainativeengineer.substack.com/"
+    ]
 
   [params.assets]
     favicon = "favicon.ico"

@@ -1,0 +1,65 @@
+<div class="consent-banner" id="analytics-consent" role="dialog" aria-modal="false"
+  aria-labelledby="analytics-consent-title" aria-describedby="analytics-consent-description" hidden>
+  <div class="consent-copy">
+    <strong id="analytics-consent-title">Your privacy choices</strong>
+    <p id="analytics-consent-description">
+      This site uses Google Analytics to understand aggregate traffic and improve the experience.
+      Analytics storage is disabled unless you accept.
+      <a href="/privacy/">Learn more</a>
+    </p>
+  </div>
+  <div class="consent-actions">
+    <button class="consent-button consent-reject" id="analytics-reject" type="button">Reject</button>
+    <button class="consent-button consent-accept" id="analytics-accept" type="button">Accept analytics</button>
+  </div>
+</div>
+
+<script>
+  (function () {
+    const storageKey = 'nilayshah-analytics-consent';
+    const banner = document.getElementById('analytics-consent');
+    const acceptButton = document.getElementById('analytics-accept');
+    const rejectButton = document.getElementById('analytics-reject');
+    const footer = document.querySelector('.footer');
+
+    function updateConsent(value) {
+      localStorage.setItem(storageKey, value);
+      if (typeof window.gtag === 'function') {
+        window.gtag('consent', 'update', {
+          analytics_storage: value === 'granted' ? 'granted' : 'denied',
+          ad_storage: 'denied',
+          ad_user_data: 'denied',
+          ad_personalization: 'denied'
+        });
+      }
+      banner.hidden = true;
+    }
+
+    function showConsent() {
+      banner.hidden = false;
+      acceptButton.focus();
+    }
+
+    acceptButton.addEventListener('click', function () {
+      updateConsent('granted');
+    });
+
+    rejectButton.addEventListener('click', function () {
+      updateConsent('denied');
+    });
+
+    if (footer) {
+      const separator = document.createTextNode(' · ');
+      const settingsButton = document.createElement('button');
+      settingsButton.type = 'button';
+      settingsButton.className = 'cookie-settings-link';
+      settingsButton.textContent = 'Cookie settings';
+      settingsButton.addEventListener('click', showConsent);
+      footer.append(separator, settingsButton);
+    }
+
+    if (!localStorage.getItem(storageKey)) {
+      showConsent();
+    }
+  }());
+</script>
