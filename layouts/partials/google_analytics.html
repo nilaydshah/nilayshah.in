@@ -1,10 +1,26 @@
 {{- with site.Config.Services.GoogleAnalytics.ID }}
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
+
+  (function () {
+    const preference = localStorage.getItem('nilayshah-analytics-consent');
+    gtag('consent', 'default', {
+      analytics_storage: preference === 'granted' ? 'granted' : 'denied',
+      ad_storage: 'denied',
+      ad_user_data: 'denied',
+      ad_personalization: 'denied',
+      wait_for_update: 500
+    });
+  }());
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+<script>
   gtag('js', new Date());
-  gtag('config', '{{ . }}');
+  gtag('config', '{{ . }}', {
+    allow_google_signals: false,
+    allow_ad_personalization_signals: false
+  });
 </script>
 {{- end }}
