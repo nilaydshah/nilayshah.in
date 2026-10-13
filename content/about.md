@@ -20,9 +20,13 @@ I am especially interested in turning promising ideas into trusted production sy
 
 ## The AI-Native Engineer
 
-I publish **[The AI-Native Engineer](https://theainativeengineer.substack.com/)**, where I share field notes, case studies, and lessons on how AI is changing the way engineers build, operate, and lead.
+I publish **[The AI-Native Engineer](https://theainativeengineer.substack.com/)**, where I share published articles, case studies, and lessons on how AI is changing the way engineers build, operate, and lead.
 
 The goal is to move beyond demos and hype and focus on what works, what does not, and what teams learn while moving AI from proof of concept to production.
+
+[From AI-Assisted to AI-Native Engineering](https://theainativeengineer.substack.com/p/from-ai-assisted-to-ai-native-engineering) shares seven lessons from AI Engineer SF on loop engineering, evals, context, agent safety, orchestration, human judgment, and team velocity.
+
+[Operate Smarter with Azure SRE Agent](https://theainativeengineer.substack.com/p/operate-smarter-with-azure-sre-agent-188) shares lessons on transforming live-site investigation while keeping engineers firmly in control.
 
 [Read the publication →](https://theainativeengineer.substack.com/)
 
