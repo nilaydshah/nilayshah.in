@@ -1,8 +1,17 @@
 {
   "feed": "https://theainativeengineer.substack.com/feed",
-  "generatedAt": "2026-10-01T03:35:29.206077+00:00",
-  "source": "RSS-to-JSON fallback",
+  "generatedAt": "2026-10-13T02:25:00+00:00",
+  "source": "committed fallback snapshot",
   "items": [
+    {
+      "title": "From AI-Assisted to AI-Native Engineering",
+      "link": "https://theainativeengineer.substack.com/p/from-ai-assisted-to-ai-native-engineering",
+      "date": "2026-10-12T19:00:00+00:00",
+      "dateDisplay": "October 12, 2026",
+      "summary": "Seven lessons from AI Engineer SF on loop engineering, evals, context, agent safety, orchestration, human judgment, and team velocity.",
+      "image": "",
+      "author": "Nilay Shah"
+    },
     {
       "title": "Operate Smarter with Azure SRE Agent: Transforming the On-Call DRI Experience",
       "link": "https://theainativeengineer.substack.com/p/operate-smarter-with-azure-sre-agent-188",
